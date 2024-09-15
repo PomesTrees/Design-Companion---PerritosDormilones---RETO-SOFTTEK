@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "729693964384",
+    "project_id": "design-live-5bwpey",
+    "storage_bucket": "design-live-5bwpey.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729693964384:android:ccc4f1758f2c4d00639b05",
+        "android_client_info": {
+          "package_name": "com.mycompany.replicatedrawingdemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjaBI1t3f__SiFum2DmDY3g3HORDMdF1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
