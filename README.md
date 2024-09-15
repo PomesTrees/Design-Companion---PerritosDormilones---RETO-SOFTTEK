@@ -1,7 +1,5 @@
-# DesignLive
+Inspiration For many people involved in creative fields, architecture, or planning, the process of turning a basic idea into a detailed and visually appealing proposal can be challenging. Our goal was to streamline this process and make it more intuitive.
 
-A new Flutter project.
+What it does This application takes basic inputs, whether in the form of a sketch or a file, and with a brief description, it provides context to guide the design towards a specific theme. Based on the input "sketch," it suggests ideas and generates a detailed image that aligns with the given context.
 
-## Getting Started
-
-FlutterFlow projects are built to run on the Flutter _stable_ release.
+How we built it We used Flutter to develop the mobile application and manage the connections between various services. For the backend, we employed Python with Intel OpenVINO and SPADE, which includes CocoStuff and Pix2Pix. OpenVINO is used to optimize the SPADE model, which, based on a sketch and its context, generates a detailed image. This image is then stored in the user's history in Firebase, and once the final part of the workflow is complete, the image is processed into a 3D model (in .glb format) and stored for the user.
